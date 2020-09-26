@@ -1,0 +1,7 @@
+[defaults]
+url=http://localhost:9000/
+org=zyl-organization
+project=hello-world
+
+[auth]
+token=d93d73ccde7d43f0a8d630f2368cbd2e059d229bceb84223a5dac3bc4c38d23d

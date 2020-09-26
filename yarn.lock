@@ -810,6 +810,71 @@
   version "1.1.3"
   resolved "https://registry.npm.taobao.org/@nodelib/fs.stat/download/@nodelib/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
 
+"@sentry/browser@^5.24.2":
+  version "5.24.2"
+  resolved "https://registry.npm.taobao.org/@sentry/browser/download/@sentry/browser-5.24.2.tgz#e2c2786dbf07699ee12f12babf0138d633abc494"
+  dependencies:
+    "@sentry/core" "5.24.2"
+    "@sentry/types" "5.24.2"
+    "@sentry/utils" "5.24.2"
+    tslib "^1.9.3"
+
+"@sentry/core@5.24.2":
+  version "5.24.2"
+  resolved "https://registry.npm.taobao.org/@sentry/core/download/@sentry/core-5.24.2.tgz#1724652855c0887a690c3fc6acd2519d4072b511"
+  dependencies:
+    "@sentry/hub" "5.24.2"
+    "@sentry/minimal" "5.24.2"
+    "@sentry/types" "5.24.2"
+    "@sentry/utils" "5.24.2"
+    tslib "^1.9.3"
+
+"@sentry/hub@5.24.2":
+  version "5.24.2"
+  resolved "https://registry.npm.taobao.org/@sentry/hub/download/@sentry/hub-5.24.2.tgz#64a02fd487599945e488ae23aba4ce4df44ee79e"
+  dependencies:
+    "@sentry/types" "5.24.2"
+    "@sentry/utils" "5.24.2"
+    tslib "^1.9.3"
+
+"@sentry/integrations@^5.24.2":
+  version "5.24.2"
+  resolved "https://registry.npm.taobao.org/@sentry/integrations/download/@sentry/integrations-5.24.2.tgz#cfb14c64465d6acbb279994b8a87a8ef72776320"
+  dependencies:
+    "@sentry/types" "5.24.2"
+    "@sentry/utils" "5.24.2"
+    localforage "1.8.1"
+    tslib "^1.9.3"
+
+"@sentry/minimal@5.24.2":
+  version "5.24.2"
+  resolved "https://registry.npm.taobao.org/@sentry/minimal/download/@sentry/minimal-5.24.2.tgz#14e8b136842398a32987459f0574359b6dc57a1f"
+  dependencies:
+    "@sentry/hub" "5.24.2"
+    "@sentry/types" "5.24.2"
+    tslib "^1.9.3"
+
+"@sentry/tracing@^5.24.2":
+  version "5.24.2"
+  resolved "https://registry.npm.taobao.org/@sentry/tracing/download/@sentry/tracing-5.24.2.tgz#a36b4f9bf699c5e07e99a148360091c8e727c51f"
+  dependencies:
+    "@sentry/hub" "5.24.2"
+    "@sentry/minimal" "5.24.2"
+    "@sentry/types" "5.24.2"
+    "@sentry/utils" "5.24.2"
+    tslib "^1.9.3"
+
+"@sentry/types@5.24.2":
+  version "5.24.2"
+  resolved "https://registry.npm.taobao.org/@sentry/types/download/@sentry/types-5.24.2.tgz#e2c25d1e75d8dbec5dbbd9a309a321425b61c2ca"
+
+"@sentry/utils@5.24.2":
+  version "5.24.2"
+  resolved "https://registry.npm.taobao.org/@sentry/utils/download/@sentry/utils-5.24.2.tgz?cache=0&sync_timestamp=1600705291516&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40sentry%2Futils%2Fdownload%2F%40sentry%2Futils-5.24.2.tgz#90b7dff939bbbf4bb8edcac6aac2d04a0552af80"
+  dependencies:
+    "@sentry/types" "5.24.2"
+    tslib "^1.9.3"
+
 "@soda/friendly-errors-webpack-plugin@^1.7.1":
   version "1.7.1"
   resolved "https://registry.npm.taobao.org/@soda/friendly-errors-webpack-plugin/download/@soda/friendly-errors-webpack-plugin-1.7.1.tgz#706f64bcb4a8b9642b48ae3ace444c70334d615d"
@@ -2383,7 +2448,7 @@ core-js-compat@^3.6.2, core-js-compat@^3.6.5:
     browserslist "^4.8.5"
     semver "7.0.0"
 
-core-js@^3.6.5:
+core-js@3.6.5, core-js@^3.6.5:
   version "3.6.5"
   resolved "https://registry.npm.taobao.org/core-js/download/core-js-3.6.5.tgz?cache=0&sync_timestamp=1586450527243&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcore-js%2Fdownload%2Fcore-js-3.6.5.tgz#7395dc273af37fb2e50e9bd3d9fe841285231d1a"
 
@@ -4018,6 +4083,10 @@ image-size@~0.5.0:
   version "0.5.5"
   resolved "https://registry.npm.taobao.org/image-size/download/image-size-0.5.5.tgz?cache=0&sync_timestamp=1599125274352&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fimage-size%2Fdownload%2Fimage-size-0.5.5.tgz#09dfd4ab9d20e29eb1c3e80b8990378df9e3cb9c"
 
+immediate@~3.0.5:
+  version "3.0.6"
+  resolved "https://registry.npm.taobao.org/immediate/download/immediate-3.0.6.tgz#9db1dbd0faf8de6fbe0f5dd5e56bb606280de69b"
+
 import-cwd@^2.0.0:
   version "2.1.0"
   resolved "https://registry.npm.taobao.org/import-cwd/download/import-cwd-2.1.0.tgz#aa6cf36e722761285cb371ec6519f53e2435b0a9"
@@ -4573,6 +4642,12 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
+lie@3.1.1:
+  version "3.1.1"
+  resolved "https://registry.npm.taobao.org/lie/download/lie-3.1.1.tgz#9a436b2cc7746ca59de7a41fa469b3efb76bd87e"
+  dependencies:
+    immediate "~3.0.5"
+
 lines-and-columns@^1.1.6:
   version "1.1.6"
   resolved "https://registry.npm.taobao.org/lines-and-columns/download/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
@@ -4621,6 +4696,12 @@ loader-utils@^2.0.0:
     big.js "^5.2.2"
     emojis-list "^3.0.0"
     json5 "^2.1.2"
+
+localforage@1.8.1:
+  version "1.8.1"
+  resolved "https://registry.npm.taobao.org/localforage/download/localforage-1.8.1.tgz#f6c0a24b41ab33b10e4dc84342dd696f6f3e3433"
+  dependencies:
+    lie "3.1.1"
 
 locate-path@^2.0.0:
   version "2.0.0"
@@ -7009,7 +7090,7 @@ tsconfig-paths@^3.9.0:
     minimist "^1.2.0"
     strip-bom "^3.0.0"
 
-tslib@^1.10.0, tslib@^1.9.0:
+tslib@^1.10.0, tslib@^1.9.0, tslib@^1.9.3:
   version "1.13.0"
   resolved "https://registry.npm.taobao.org/tslib/download/tslib-1.13.0.tgz?cache=0&sync_timestamp=1596754937440&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ftslib%2Fdownload%2Ftslib-1.13.0.tgz#c881e13cc7015894ed914862d276436fa9a47043"
 
